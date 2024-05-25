@@ -1,0 +1,136 @@
+#row {
+    display: flex;
+  }
+  
+  #column{
+    flex: 40%;
+    padding: 50;
+    margin: 0;
+    height: 800px;
+    
+    
+  }
+
+  #column2{
+    flex: 60%;
+  }
+ p, div{
+    color: aliceblue;
+  }
+
+  #heading
+  {
+    position: absolute;
+    text-align: start;
+    width: 684px;
+    height: 31px;
+    left: 640px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 40;
+    font-size: 32px;
+    line-height: 4px;
+    color: #FFFFFF;
+    
+
+  }
+  
+  #heading2{
+    position: absolute;
+    width: 381px;
+    height: 33px;
+    left: 640px;
+    top: 208px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;/* identical to box height */
+    color: #FFFFFF;
+
+  }
+
+  .attribute{
+    position: absolute;
+    width: 200px;
+    height: 47px;
+    left: 615px;
+    /* top: 330px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    color: #FFFFFF;
+    word-wrap: normal;
+  }
+
+  .textbox{
+    position: absolute;
+    left: 625px;
+    top: 347px;
+    background: #FFFFFF;
+    border-radius: 5px; 
+    font-size: 30;
+    width: 800px; 
+    height: 30px; 
+    top: 0; 
+    font-family: sans-serif;
+    margin-top: 130px;
+    margin-left: 0px;
+  }
+
+  #back-button-text{
+    width: 228px;
+  height: 30px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  color: #FFFFFF;
+
+  }
+
+  #backButton{
+    position: relative; /* Adjust this if needed */
+  width: 600px;
+  height: 57px;
+  left: 588px;
+  top: 100px; /* Adjust the top position to move the entire button */
+  background: #8AB5E5;
+  border-radius: 14px;
+  display: flex;
+  align-items: center; /* Center text vertically */
+  justify-content: center;
+  float: left;
+    
+  }
+
+  .button-container {
+    display: flex;
+    
+    /* display:inline; */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Centers the buttons vertically */
+  }
+  
+  .button-link {
+    margin: 0 10px; /* Adjust the margin as needed to control spacing between buttons */
+    float: left;
+  }
+
+  .back, .next{
+    float: left;
+
+  }
+
+  #row {
+    display: flex;
+  }
+
+  #column {
+    flex: 20%;
+    padding: 0;
+    margin: 0;
+    
+  }

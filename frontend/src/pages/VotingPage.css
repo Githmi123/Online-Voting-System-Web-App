@@ -1,0 +1,213 @@
+#page {
+    background-color: "#1A2023";
+  }
+
+  #whiteboxcontent{
+    /* Group 13 */
+
+position: absolute;
+width: 1019px;
+height: 257px;
+left: 54px;
+top: 20px;
+
+
+
+/* Rectangle 27 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1019px;
+height: 257px;
+left: 54px;
+top: 20px;
+
+background: #FFFFFF;
+border: 2px solid #000000;
+
+  }
+
+
+  .whiteboxtext{
+    /* This election is being conducted by Victory Holdings PLC Steps Carefully read all the qualifications of each candidate. Click “Vote” button for yor desired candidate. You are able to vote only for one candidate. Please ensure that your vote is fair and transparent. The confidentiality of your vote is ensured. */
+
+position: absolute;
+width: 916px;
+height: 217px;
+left: 26px;
+top: 4px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 33px;
+
+color: #000000;
+
+
+  }
+
+  #image
+{
+    /* Group 12 */
+
+position: absolute;
+width: 309px;
+height: 97px;
+left: 1150px;
+top: 18px;
+
+
+
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+
+#bluebox{
+    /* Rectangle 28 */
+
+position: absolute;
+width: 1402px;
+height: 619px;
+left: 22px;
+top: 296px;
+
+background: rgba(80, 42, 232, 0.38);
+
+}
+
+
+.box{
+    /* Rectangle 29 */
+
+position: absolute;
+width: 1343px;
+height: 221px;
+left: 23px;
+top: 18px;
+
+background: rgba(255, 255, 255, 0.77);
+
+}
+
+
+.text1{
+    /* Candidate 01: */
+
+position: absolute;
+width: 340px;
+height: 33px;
+left: 51px;
+top: 43px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+
+.button1{
+    /* Group 8 */
+
+position: absolute;
+width: 342px;
+height: 68px;
+left: 582px;
+top: 48px;
+border: 0;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+
+background: #D9D9D9;
+
+}
+
+
+.vote{
+
+
+
+background: #DB2323;
+border-radius: 0px;
+
+
+/* Vote */
+
+position: absolute;
+width: 143.08px;
+height: 37.89px;
+left: 685px;
+top: 142px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+border: 0;
+border-radius: 22px;
+color: #FFFFFF;
+
+
+}
+
+
+#image2{
+    /* image 4 */
+
+position: absolute;
+width: 194px;
+height: 184px;
+left: 1152px;
+top: 36px;
+
+
+}
+
+
+.exit{
+    /* Rectangle 39 */
+
+position: absolute;
+width: 149px;
+height: 48px;
+left: 1241px;
+top: 959px;
+
+background: #ADC4EF;
+/* Exit */
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+color: #000000;
+
+
+}

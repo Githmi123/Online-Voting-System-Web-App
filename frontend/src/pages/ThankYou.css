@@ -1,0 +1,117 @@
+#tick{
+    /* image 7 */
+
+position: absolute;
+width: 438px;
+height: 437px;
+left: 551px;
+top: 99px;
+
+
+
+}
+
+#text1{
+    /* Thank You for Voting! */
+
+position: absolute;
+width: 608px;
+height: 88px;
+left: 616px;
+top: 536px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 88px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.text2{
+    /* Your votes were successfully submitted. Results will be published in the main website later. */
+
+position: absolute;
+width: 1332px;
+height: 181px;
+left: calc(50% - 1332px/2);
+top: 597px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+
+#back{
+    /* Group 7 */
+
+position: absolute;
+width: 189px;
+height: 54px;
+left: 645px;
+top: 755px;
+
+
+
+/* Head */
+
+position: absolute;
+width: 146.62px;
+height: 54px;
+left: 645px;
+top: 855px;
+
+
+
+/* buttons */
+
+position: absolute;
+width: 146.62px;
+height: 54px;
+left: 645px;
+top: 855px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 146.62px;
+height: 54px;
+left: 645px;
+top: 855px;
+
+background: #7688E7;
+border-radius: 14px;
+
+
+/* Back */
+
+position: absolute;
+width: 146.96px;
+height: 33.42px;
+left: 687.04px;
+top: 668.16px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+
+}

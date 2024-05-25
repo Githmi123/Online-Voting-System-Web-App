@@ -1,0 +1,135 @@
+/* body {
+    background-color: #CBCBE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+#box{
+    /* Rectangle 32 */
+
+position: absolute;
+width: 440px;
+height: 658px;
+left: 50px;
+top: 178px;
+z-index: -1 ;
+
+background-color: #CBCBE1;
+
+
+}
+
+#main{
+    /* About Us */
+
+position: absolute;
+width: 753px;
+height: 310px;
+left: 72px;
+top: 139px;
+
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 123px;
+
+color: #FFFFFF;
+
+
+}
+
+#text{
+    /* Victory Holdings PLC is a leading conglomerate company and also the Sri Lanka’s premier diversified company, which is also listed in the Colombo Stock Exchange. As a company with globally distributed stakeholders, this Online Voting System facilitates a reliable, efficient and secure platform for voting without being required to attend every Board Meeting. No any personalized ID is required and your confidentiality in voting is highly secured. */
+
+position: absolute;
+width: 791px;
+height: 225px;
+left: 47px;
+top: 301px;
+
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+
+color: #FFFFFF;
+
+
+}
+
+
+#img{
+    /* image 8 */
+
+position: absolute;
+width: 547px;
+height: 308px;
+left: 1258px;
+top: 312px;
+
+
+}
+
+.back{
+
+
+background: #D5623D;
+border-radius: 14px;
+
+
+/* Back */
+
+position: absolute;
+width: 155px;
+height: 52px;
+left: 660px;
+top: 598px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+#visit{
+    /* Group 2 */
+
+
+background: #8AB5E5;
+border-radius: 14px;
+
+
+/* Visit our website */
+
+position: absolute;
+width: 217.13px;
+height: 52px;
+left: 456.93px;
+top: 598px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+#box2{
+    background: #18175FC7;
+}

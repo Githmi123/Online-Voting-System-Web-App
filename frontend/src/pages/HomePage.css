@@ -1,0 +1,191 @@
+body{
+    background-color: #18175F;
+  }
+
+  #row {
+    display: flex;
+  }
+  
+  #column {
+    flex: 50%;
+    padding: 50;
+    margin: 0;
+    
+  }
+
+  #registerButton{
+    position: absolute;
+    width: 600px;
+    height: 57px;
+    left: 5088px;
+    top: 103px;
+    background: #8AB5E5;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #register-button-text
+  {
+    width: 228px;
+    height: 30px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+
+.login{
+
+/* Group 2 */
+
+position: absolute;
+width: 123px;
+height: 42px;
+left: 1219px;
+top: 91px;
+
+
+
+/* Head */
+
+position: absolute;
+width: 123px;
+height: 42px;
+left: 1219px;
+top: 91px;
+
+
+
+/* buttons */
+
+position: absolute;
+width: 123px;
+height: 42px;
+left: 1219px;
+top: 91px;
+
+
+
+/* Rectangle 9 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 123px;
+height: 42px;
+left: 1350px;
+top: 20px;
+
+background: rgba(138, 181, 229, 0.09);
+border: 2px solid #FFFFFF;
+border-radius: 14px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 29px;
+
+
+  }
+
+
+  .text{
+    /* About */
+/* About */
+
+position: absolute;
+width: 74px;
+height: 29px;
+left: 953px;
+top: 97px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+  
+  .about{
+    /* Contact */
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    
+    left: 1170px;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 29px;
+    border: 5px;
+    /* identical to box height */
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* line-height: 29px;
+border: 5px; */
+/* identical to box height */
+
+/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+  }
+
+  .contact{
+    position: absolute;
+width: 90px;
+height: 40px;
+left: 1260px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 19px;
+line-height: 29px;
+border: 5px;
+/* identical to box height */
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+
+  #registerButton{
+    /* Group 1 */
+
+
+/* Rectangle 9 */
+
+
+
+background: #8AB5E5;
+border-radius: 14px;
+
+
+/* REGISTER TO VOTE */
+
+position: absolute;
+width: 328px;
+height: 50px;
+left: 550px;
+top: 550px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+
+  }

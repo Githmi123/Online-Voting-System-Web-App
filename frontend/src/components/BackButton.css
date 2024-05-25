@@ -1,0 +1,33 @@
+#button{
+
+
+
+/* Rectangle 9 */
+
+
+
+background: #D5623D;
+border-radius: 14px;
+
+
+/* Back */
+
+position: absolute;
+width: 185px;
+height: 19px;
+left: 693px;
+top: 590px;
+
+text-align: center;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}

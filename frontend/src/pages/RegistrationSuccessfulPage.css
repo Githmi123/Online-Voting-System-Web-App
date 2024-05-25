@@ -1,0 +1,117 @@
+#greenBox{
+    /* Rectangle 36 */
+
+    position: absolute;
+    width: 708px;
+    height: 1060px;
+    left: 368px;
+    top: 0px;
+    border-radius: 0;
+
+    background: rgba(115, 230, 75, 0.72);
+
+}
+
+.Heading1{
+    /* Congratulations!!!!!! You have successfully registered */
+
+    position: absolute;
+    width: 566px;
+    height: 110px;
+    left: calc(50% - 566px/2);
+    top: 93px;
+
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+#img{
+    /* image 2 */
+
+    position: absolute;
+    width: 394px;
+    height: 394px;
+    left: 464px;
+    top: 208px;
+
+}
+
+#text1{
+    /* Registration Successful! */
+
+    position: absolute;
+    width: 437px;
+    height: 93px;
+    left: 219px;
+    top: 669px;
+
+    font-family: 'Dongle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 93px;
+    
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+}
+
+
+#ready{
+    /* You are ready to Vote .... */
+
+    position: absolute;
+    width: 512px;
+    height: 66px;
+    left: 214px;
+    top: 552px;
+
+    font-family: 'DM Serif Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 66px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+}
+
+#button{
+    /* Group 4 */
+
+ 
+
+    background: #8AB5E5;
+    border-radius: 14px;
+
+
+    /* Go to your Account 
+*/
+    position: absolute;
+    width: 282px;
+    height: 75px;
+    left: 175px;
+    top: 622px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+
+}

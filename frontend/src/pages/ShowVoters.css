@@ -1,0 +1,394 @@
+#hello{
+    /* Hello User!!! */
+
+position: absolute;
+width: 349px;
+height: 88px;
+left: 39px;
+top: 27px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 88px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+#icon{
+    /* image 3 */
+
+    position: absolute;
+    width: 221px;
+    height: 192px;
+    left: 87px;
+    top: 128px;
+
+}
+
+/* Change profile picture */
+#profileText{
+    position: absolute;
+    width: 256px;
+    height: 58px;
+    left: 70px;
+    top: 320px;
+
+    font-family: 'Dongle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 58px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+#delete{
+    /* Group 5 */
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 252.29px;
+height: 33.33px;
+left: 55px;
+top: 380px;
+
+background: #C11D31;
+border-radius: 14px;
+
+
+/* Delete Account */
+
+
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+
+color: #1F1A1A;
+
+
+}
+
+#Logout{
+    /* buttons */
+
+position: absolute;
+width: 123px;
+height: 42px;
+left: 1375px;
+top: 29px;
+
+
+
+/* Rectangle 9 */
+
+box-sizing: border-box;
+
+background: rgba(138, 181, 229, 0.09);
+border: 2px solid #FFFFFF;
+border-radius: 14px;
+color: #FFFFFF;
+font-weight: bold;
+
+}
+
+#box{
+    /* Rectangle 24 */
+
+position: absolute;
+width: 937px;
+height: 348px;
+left: 286px;
+top: 128px;
+border-radius: 0%;
+background: rgba(217, 217, 217, 0.4);
+
+}
+
+#AccountDetails{
+    /* Account Details */
+
+position: absolute;
+width: 275px;
+height: 55px;
+left: 24px;
+top: 02px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: bolder;
+font-size: 29px;
+line-height: 55px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+
+.List{
+    /* Full name : Email : Registered Date : Stakeholder Role : */
+
+position: absolute;
+width: 215px;
+height: 190px;
+left: 64px;
+top: 43px;
+
+font-family: 'Dongle';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 58px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+
+
+color: #C2B7B7;
+
+
+}
+
+.Edit{
+    /* Group 3 */
+
+position: absolute;
+width: 245.18px;
+height: 53.33px;
+left: 449px;
+top: 444px;
+
+
+
+/* Head */
+
+position: absolute;
+width: 245.18px;
+height: 53.33px;
+left: 449px;
+top: 444px;
+
+
+
+/* buttons */
+
+position: absolute;
+width: 245.18px;
+height: 53.33px;
+left: 449px;
+top: 444px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 245.18px;
+height: 53.33px;
+left: 449px;
+top: 444px;
+
+background: #8AB5E5;
+border-radius: 14px;
+
+
+/* Edit Details */
+
+position: absolute;
+width: 143.34px;
+height: 28.07px;
+left: 60.92px;
+top: 160.1px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+
+}
+
+
+#Upcoming{
+    /* Upcoming Elections */
+
+position: absolute;
+width: 348px;
+height: 55px;
+left: 929px;
+top: 52px;
+
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 55px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+
+#greenBox{
+    /* Rectangle 25 */
+
+position: absolute;
+width: 798px;
+height: 137px;
+left: 690px;
+top: 120px;
+
+background: rgba(70, 247, 119, 0.5);
+border-radius: 20px;
+/* Rectangle 25 */
+
+
+
+
+}
+
+#Chairman{
+    /* Chairman - CEO */
+
+position: absolute;
+width: 223px;
+height: 44px;
+left: 22px;
+top: 45px;
+
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 44px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+
+#Text{
+    /* Starts on 25.08.2023 At 8.00 pm - 9.00pm */
+
+position: absolute;
+width: 503px;
+height: 58px;
+left: 396px;
+top: 15px;
+
+font-family: 'Dongle';
+font-style: normal;
+font-weight: 400;
+font-size:22px;
+line-height: 58px;
+/* identical to box height */
+
+color: #D0B9B9;
+
+
+}
+
+
+#Text1{
+    /* Open for All Stakeholders */
+
+position: absolute;
+width: 295px;
+height: 58px;
+left: 396px;
+top: 53px;
+
+font-family: 'Dongle';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 58px;
+/* identical to box height */
+
+color: #7F9F91;
+
+
+}
+
+
+#Vote{
+    /* Group 4 */
+
+position: absolute;
+width: 194.26px;
+height: 53.33px;
+left: 1969px;
+top: 656px;
+
+
+
+/* Head */
+
+position: absolute;
+width: 143px;
+height: 53.33px;
+left: 1169px;
+top: 656px;
+
+
+
+/* buttons */
+
+position: absolute;
+width: 143px;
+height: 53.33px;
+left: 1169px;
+top: 656px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 143px;
+height: 53.33px;
+left: 1169px;
+top: 656px;
+
+background: #DB2323;
+border-radius: 14px;
+
+
+/* Vote */
+
+position: absolute;
+width: 143.34px;
+height: 28.07px;
+left: 635px;
+top: 59.1px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+border-radius: '25px';
+
+color: #FFFFFF;
+
+
+}
