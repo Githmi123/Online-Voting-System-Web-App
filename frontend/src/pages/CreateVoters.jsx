@@ -35,7 +35,7 @@ const CreateVoters = () => {
 
     setLoading(true);
     axios
-      .post(`http://localhost:5555/voters/create`, data)
+      .post(`http://localhost:3500/voters/create`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Voter created successfully', {variant: 'success'});

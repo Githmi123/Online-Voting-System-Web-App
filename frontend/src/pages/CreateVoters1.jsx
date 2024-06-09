@@ -76,7 +76,7 @@ const handleSaveVoter = async () => {
 
   try {
     setLoading(true);
-    const response = await axios.post(`http://localhost:5555/voters/create1`, data);
+    const response = await axios.post(`http://localhost:3500/voters/create1`, data);
     const id = response.data.id;
     setLoading(false);
     enqueueSnackbar('Voter created successfully', { variant: 'success' });
@@ -137,7 +137,7 @@ const handleSaveVoter = async () => {
       if (nIC) {
         setLoading(true);
         axios
-          .get(`http://localhost:5555/voters/search/${nIC}`)
+          .get(`http://localhost:3500/voters/search/${nIC}`)
           .then((response) => {
             if (response.data) {
               const id = response.data._id; // Assuming the ID is accessible in the response data
@@ -204,7 +204,7 @@ const handleSaveVoter = async () => {
   const handleExists = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`http://localhost:5555/voters/search/${nIC}`);
+      const response = await axios.get(`http://localhost:3500/voters/search/${nIC}`);
       if (response.data) {
         //const id = response.data._id;
         setErrorOccurred(true);

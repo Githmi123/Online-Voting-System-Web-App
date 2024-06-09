@@ -65,7 +65,7 @@ const EmailPasswordForm = () => {
     };
     setLoading(true);
     axios
-      .put(`http://localhost:5555/voters/emailandpassword/${id}`, data)
+      .put(`http://localhost:3500/voters/emailandpassword/${id}`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar('Voter Edited successfully', { variant: 'success' });

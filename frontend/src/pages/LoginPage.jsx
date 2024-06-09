@@ -33,7 +33,7 @@ const LoginPage = () => {
 
     setLoading(true);
     axios
-      .post(`http://localhost:5555/voters/login`, data)
+      .post(`http://localhost:3500/voters/login`, data)
       .then((response) => {
         setLoading(false);
         if (response.data.isAdmin) {
@@ -42,7 +42,7 @@ const LoginPage = () => {
       } else {
         const voterId = response.data.id;
           axios
-          .get(`http://localhost:5555/voters/${voterId}`)
+          .get(`http://localhost:3500/voters/${voterId}`)
           .then((res) => {
             const id = res.data._id; // Assuming the ID is accessible in the response data
             enqueueSnackbar(`Login successful`, {variant: 'success'});

@@ -23,7 +23,7 @@ const Home = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:5555/voters/")
+      .get("http://localhost:3500/voters/")
       .then((response) => {
         setVoters(response.data.data);
         setLoading(false);
@@ -39,7 +39,7 @@ const Home = () => {
     if (searchQuery) {
       setLoading(true);
       axios
-        .get(`http://localhost:5555/voters/search/${searchQuery}`)
+        .get(`http://localhost:3500/voters/search/${searchQuery}`)
         .then((response) => {
           if (response.data) {
             const id = response.data._id; // Assuming the ID is accessible in the response data

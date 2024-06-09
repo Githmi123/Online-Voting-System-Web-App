@@ -25,7 +25,7 @@ const EditVoters = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios.get(`http://localhost:5555/voters/${id}`)
+    axios.get(`http://localhost:3500/voters/${id}`)
     .then((response) => {
         setFirstName(response.data.firstName);
         setLastName(response.data.lastName);
@@ -91,7 +91,7 @@ const EditVoters = () => {
         };
         setLoading(true);
         axios
-          .put(`http://localhost:5555/voters/${id}`, data)
+          .put(`http://localhost:3500/voters/${id}`, data)
           .then(() => {
             setLoading(false);
             enqueueSnackbar('Voter Edited successfully', { variant: 'success' });
@@ -114,7 +114,7 @@ const EditVoters = () => {
   const handleExists = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`http://localhost:5555/voters/search/${nIC}`);
+      const response = await axios.get(`http://localhost:3500/voters/search/${nIC}`);
       setLoading(false);
       if (response.data) {
         return response.data._id !== id;

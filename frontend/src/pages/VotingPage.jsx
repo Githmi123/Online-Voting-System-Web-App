@@ -45,7 +45,7 @@ const VotingPage = () => {
     
         // setLoading(true);
         axios
-        .post(`http://localhost:5555/voters/submit-vote/${id}`, data)
+        .post(`http://localhost:3500/voters/submit-vote/${id}`, data)
         .then((response) => {
             // Handle the response accordingly
             if (response.data.isVoted) {

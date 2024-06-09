@@ -20,7 +20,7 @@ const ShowVoters2 = () => {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:5555/voters/${id}`)
+      .get(`http://localhost:3500/voters/${id}`)
       .then((response) => {
         setVoter(response.data);
         setLoading(false);
@@ -39,7 +39,7 @@ const ShowVoters2 = () => {
     const formData = new FormData();
     formData.append('image', selectedFile);
 
-    axios.put(`http://localhost:5555/voters/upload`, formData)
+    axios.put(`http://localhost:3500/voters/upload`, formData)
       .then(res => {
         console.log(res.statusText);
       })

@@ -16,7 +16,7 @@ const DeleteVoters = () => {
       
       setLoading(true);
       axios
-        .delete(`http://localhost:5555/voters/${id}`)
+        .delete(`http://localhost:3500/voters/${id}`)
         .then(() => {
           setLoading(false);
           enqueueSnackbar('Voter Deleted successfully', { variant: 'success' });
