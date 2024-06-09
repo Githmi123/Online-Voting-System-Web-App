@@ -1,6 +1,6 @@
-export const PORT = 5555;
+export const PORT = 3500;
 
-export const mongoDBURL = "mongodb://127.0.0.1:27017/VotersCollection";
+export const mongoDBURL = "mongodb://mongodb:27017/VotersCollection";
 
 
 

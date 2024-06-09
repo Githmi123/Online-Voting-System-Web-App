@@ -5,6 +5,7 @@ import { AiOutlineEdit } from 'react-icons/ai';
 import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineDelete } from 'react-icons/md';
 import VoterSingleCard from './VoterSingleCard';
+import React from 'react';
 
 const VotersCard = ({ voters }) => {
     return (

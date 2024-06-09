@@ -6,6 +6,7 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineDelete } from 'react-icons/md';
 import { useState } from 'react';
 import VoterModel from './VoterModel';
+import React from 'react';
 
 const VoterSingleCard = ({ voter }) => {
     const [showModal, setShowModal] = useState(false);
