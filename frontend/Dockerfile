@@ -13,12 +13,18 @@ RUN npm install
 # Install the Vite plugin for React
 RUN npm install @vitejs/plugin-react --save-dev
 
+# Install @emotion/react and @emotion/styled
+RUN npm install @emotion/react @emotion/styled
+
 # Copy the rest of the application code
 COPY . .
 
 # Set correct permissions for node_modules
 RUN chown -R node:node /app/node_modules
 RUN chmod -R 755 /app/node_modules
+
+# Rebuild esbuild to ensure compatibility with the current platform
+RUN npm rebuild esbuild
 
 # Expose the port the app runs on
 EXPOSE 5173
