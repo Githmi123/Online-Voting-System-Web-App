@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-       
         REPO_URL = 'https://gitlab.com/new1190414/Online-Voting-System-Web-App.git'
         DOCKER_IMAGE_FRONTEND = 'githmioshani/frontend'
         DOCKER_IMAGE_BACKEND = 'githmioshani/backend'
@@ -19,31 +18,11 @@ pipeline {
             }
         }
         
-        stage('Build Docker Images') {
+        stage('Build and Run Docker Containers') {
             steps {
                 script {
-                    docker.build("${DOCKER_IMAGE_FRONTEND}", './frontend')
-                    docker.build("${DOCKER_IMAGE_BACKEND}", './backend')
-                }
-            }
-        }
-
-        stage('Run MongoDB Container') {
-            steps {
-                script {
-                    docker.image("${DOCKER_IMAGE_MONGO}").withRun("-p ${MONGO_PORT}:${MONGO_PORT} --name mongodb") { c ->
-                    }
-                }
-            }
-        }
-
-        stage('Run Application Containers') {
-            steps {
-                script {
-                    docker.image("${DOCKER_IMAGE_BACKEND}").withRun("-p ${BACKEND_PORT}:${BACKEND_PORT} --name backend --link mongodb") { c ->
-                    }
-                    docker.image("${DOCKER_IMAGE_FRONTEND}").withRun("-p ${FRONTEND_PORT}:${FRONTEND_PORT} --name frontend --link backend") { c ->
-                    }
+                    sh 'docker-compose down' // Ensure no existing containers are running
+                    sh 'docker-compose up --build -d' // Build and run containers in detached mode
                 }
             }
         }
@@ -52,6 +31,7 @@ pipeline {
     post {
         always {
             echo 'Cleaning up...'
+            sh 'docker-compose down'
             sh 'docker system prune -f'
         }
         success {
