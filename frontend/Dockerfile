@@ -14,7 +14,8 @@ RUN npm install
 RUN npm install @vitejs/plugin-react --save-dev
 
 # Install @emotion/react and @emotion/styled
-RUN npm install @mui/material @emotion/react @emotion/styled --force
+RUN npm install @emotion/react @emotion/styled --save
+# RUN npm install @mui/material @emotion/react @emotion/styled --force
 
 # Copy the rest of the application code
 COPY . .

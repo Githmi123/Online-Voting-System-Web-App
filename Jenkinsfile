@@ -32,7 +32,7 @@ pipeline {
         always {
             echo 'Cleaning up...'
             bat 'docker-compose down'
-            bat 'docker system prune -f'
+            // bat 'docker system prune'
         }
         success {
             echo 'Pipeline completed successfully!'
