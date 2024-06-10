@@ -3,7 +3,7 @@ pipeline {
 
     environment {
        
-        REPO_URL = 'https://gitlab.com/new1190414/automated-docker-cicd-pipeline.git'
+        REPO_URL = 'https://gitlab.com/new1190414/Online-Voting-System-Web-App.git'
         DOCKER_IMAGE_FRONTEND = 'githmioshani/frontend'
         DOCKER_IMAGE_BACKEND = 'githmioshani/backend'
         DOCKER_IMAGE_MONGO = 'mongo:4.4'
