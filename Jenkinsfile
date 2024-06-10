@@ -21,8 +21,8 @@ pipeline {
         stage('Build and Run Docker Containers') {
             steps {
                 script {
-                    sh 'docker-compose down' // Ensure no existing containers are running
-                    sh 'docker-compose up --build -d' // Build and run containers in detached mode
+                    bat 'docker-compose down' // Ensure no existing containers are running
+                    bat 'docker-compose up --build' // Build and run containers in detached mode
                 }
             }
         }
@@ -31,8 +31,8 @@ pipeline {
     post {
         always {
             echo 'Cleaning up...'
-            sh 'docker-compose down'
-            sh 'docker system prune -f'
+            bat 'docker-compose down'
+            bat 'docker system prune -f'
         }
         success {
             echo 'Pipeline completed successfully!'
