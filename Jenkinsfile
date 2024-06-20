@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     bat 'docker-compose down' // Ensure no existing containers are running
-                    bat 'docker-compose up --build' // Build and run containers in detached mode
+                    bat 'docker-compose up --build --memory="2g"' // Build and run containers in detached mode
                 }
             }
         }
