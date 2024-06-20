@@ -21,9 +21,10 @@ pipeline {
         stage('Build and Run Docker Containers') {
             steps {
                 script {
-                    bat "docker run --memory='2g' -d ${DOCKER_IMAGE_FRONTEND.toLowerCase()}"
-                    bat "docker run --memory='2g' -d ${DOCKER_IMAGE_BACKEND.toLowerCase()}"
-                    bat "docker run --memory='2g' -d ${DOCKER_IMAGE_MONGO}"
+                    bat 'docker run --memory=2g -d ${DOCKER_IMAGE_FRONTEND.toLowerCase()}'
+                    bat 'docker run --memory=2g -d ${DOCKER_IMAGE_BACKEND.toLowerCase()}'
+                    bat 'docker run --memory=2g -d ${DOCKER_IMAGE_MONGO}'
+
 
                     // bat 'docker-compose up --build --memory="2g"' // Build and run containers in detached mode
                 }
