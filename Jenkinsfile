@@ -21,10 +21,10 @@ pipeline {
         stage('Build and Run Docker Containers') {
             steps {
                 script {
-                    bat 'docker-compose down' // Ensure no existing containers are running
-                    bat 'docker run --memory="2g" -d ${DOCKER_IMAGE_FRONTEND}' // Run frontend container with memory limit
-                    bat 'docker run --memory="2g" -d ${DOCKER_IMAGE_BACKEND}' // Run backend container with memory limit
-                    bat 'docker run --memory="2g" -d ${DOCKER_IMAGE_MONGO}' // Run MongoDB container with memory limit
+                    bat "docker run --memory='2g' -d ${DOCKER_IMAGE_FRONTEND.toLowerCase()}"
+                    bat "docker run --memory='2g' -d ${DOCKER_IMAGE_BACKEND.toLowerCase()}"
+                    bat "docker run --memory='2g' -d ${DOCKER_IMAGE_MONGO}"
+
                     // bat 'docker-compose up --build --memory="2g"' // Build and run containers in detached mode
                 }
             }
