@@ -7,6 +7,10 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
+# Set correct permissions for package-lock.json
+RUN chown -R node:node /app/package-lock.json
+RUN chmod -R 755 /app/package-lock.json
+
 # Install dependencies
 RUN npm install
 
